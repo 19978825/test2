@@ -1,742 +1,300 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>花卉网</title>
+<title>黄岸雅</title>
 
-<style type="text/css">
-    
-	.contain{
-		width: 1000px;
-		height: 1200px;
-		margin: auto;
-		background-image:url(images/13.jpg);
-	}
-	
-	
-	
-	.dingbu{
-		width: 1000px;
-		height: 100px;
-	}
-	
-	.huahuiwang{
-		width: 200px;
-		height: 100px;
-		float: left;
-	}
-	
-	.huahuiwang span{
-		font-size:65px;
-		font-family:"华文彩云";
-		color:#C60;
-		margin-top:10px;
-	
-      
-	 
-        
-	}
-	
-	
-	
-	
-	.home{
-		width: 800px;
-		height: 40px;
-		float: right;
-	}
-	.home p{
-		margin-left: 270px;
-		margin-top:20px;
-		
-	}
-	.home form{
-		margin-left: 540px;
-		margin-top:-25px;
-	}
-	
-	
-	
-	.shouye{
-		width: 800px;
-		height: 60px;
-		float: right;
-	}
-	.shouye span a{
-		text-decoration: none;
-		float: left;
-		margin-top: 30px;
-		margin-left: 9.5px;
-	}
-	.shouye span a:hover{
-		color: #ECF023;
-	}
-	
-	.dibu{
-		width: 900px;
-		height:1100px;
-		margin: auto;
-	}
-	
-	.A{
-		width: 900px;
-		height: 150px;
-	}
-	
-	.B{
-		width: 900px;
-		height: 150px;
-		margin-right:10px;
-	}
-	
-	 
-	.B1{
-		width:300px;
-		height:150px;
-		float: left;
-	}
-	.B1 hr{
-	border:1px solid #999;
-	width:300px;
-	margin-top:-10px;
-	}
-	
-	.B1 span:hover{
-	color:#FC0;
-	
-}
-	
-	.B2{
-		width:300px;
-		height:150px;
-		float: left;
-	}
-	
-	
-	.B3{
-		width:300px;
-		height:150px;
-		float: left;
-	}
-	
-	
-	.juxing{
-		width:300px;
-		height:35px;
-	}
-	
-	
-	
-	.juxing1{
-		width:80px;
-		height:35px;
-		background:#CCC;
-		border-radius:5px;
-		float:left;
-		
-	
-	}
-	 
-	 .juxing2{
-		width:80px;
-		height:35px;
-		background:#CCC;
-		border-radius:5px;
-		float:left;
-	}
-		 
-	 .juxing span{
-		 float:right;
-		 margin-top:5px;
-		 margin-left:0px;
-		 font-size:18px;
-	 }
-	 
-	 .juxing span:hover{
-		 color:#9C0;
-	 }
-    
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Greetings Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 
-	
-	.B3 hr{
-		margin:0px;
-	}
-		
-	.zi{
-		width:300px;
-		height:115px;
-		margin:0px;
-		padding:0px;
-	}
-	
-	.tupian{
-		width:80px;
-		height:115px;
-		float:left;
-	}
-	
-	.tupian img{
-		margin-top:10px;
-	}
-	
-	.zi1{
-		width:220px;
-		height:115px;
-		float:right;
-			}
-	
-	.zi1 ol{
-		margin-top:1px;
-		margin-left:40px;
-		font-size:18px;
-	}
-	
-	
-	.zi1 ol:hover{
-		color:#CF3;
-	}
-	
-	
-		
-	.C{
-		width: 600px;
-		height: 300px;
-		
-	}
-	.C1{
-		width: 600px;
-		height: 50px;
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
 
-	}
-	
-	.C1 span:hover{
-		color:#099;
-	}
-	
-	
-	
-	
-	.C2{
-		width: 600px;
-		height: 250px;
-		
-	}
-	
-	.hua{
-		width:600px;
-		height:200px;
-	}
-	
-	.hua img{
-		margin:20px 0px  0px 10px;
-
-	}
-	.hua img:hover{
-		transform:scale(0.5,0.6);
-	}
-	
-	.huaming{
-		height:50px;
-		width:600px;
-	}
-	
-	.huaming span{
-		color:#900;
-	}
-	
-	
-	.huaming span:hover{
-		color:#03F;
-		font-size:30px;
-	}
-	
-	
-	
-	.D{
-		width: 300px;
-		height: 300px;
-		float:right;
-		margin-top:-300px;
-	}
-	.D span{
-		color:#C90;
-		line-height:30px;
-		margin-left:20px;
-		
-	}
-	.D1{
-		width: 300px;
-		height: 50px;
-	
-	}
-	.D2{
-		width: 300px;
-		height: 250px;
-		
-	}
-	
-	.D2 span{
-		margin-left:25px;
-		margin-top:-30px;
-		line-height:30px;
-		
-		
-	}
-	
-	.D2 span:hover{
-		color:#00F;
-		
-	}
-	
-	
-	
-	.zaixian{
-		height:35px;
-		width:160px;
-		border-radius:30px;
-		background-color:#CCC;
-		margin-left:20px;
-		margin-bottom:20px;
-		
-	}
-	
-	.zaixian span{
-		margin-left:30px;
-		color:#F60;
-	}
-		
-	
-	.zaixian span:hover{
-		color:#9F0;
-	}
-	
-	
-	.liuyan{
-		height:35px;
-		width:160px;
-		border-radius:30px;
-		background-color:#CCC;
-		margin-left:20px;
-		margin-bottom:15px;
-		
-	}
-	
-	 .liuyan span{
-		 margin-left:30px;
-		 color:#F60;
-	 }
-	 
-	 .liuyan span:hover{
-		 color:#9F0;
-	 }
-	 
-	 
-	 
-	 .E{
-		 width:900px;
-		 height:300px;
-		
-		 float:right;
-		
-	 }
-	 
-	
-	.E1{
-		width:900px;
-		height:50px;
-	
-		
+		function hideURLbar() {
+			window.scrollTo(0, 1);
 		}
-		
-		
-		
-   select {
-    width:160px;
-	height:30px;
-	margin-top:10px;
-     }
-	.E1 form {
-		color:#0c12f5;
-		font-size:16.5px;
-		font-weight:400;
-		font-family:黑体;
-	}
-	.r {
-		background-color:#FF0000;
-		color:#000;
-	
-	}
-	.o {
-		background-color:#FF9900;
-		color:#000;
-	}
-	.y {
-		background-color:#FFFF00;
-		color:#000;
-	}
-	.g {
-		background-color:#009900;
-		color:#000;
-	}
-	.q {
-		background-color:#21b9b4;
-		color:#000;
-	}
-	.b {
-		background-color:#0000FF;
-		color:#000;
-	}
-	.z {
-		background-color:#7c176a;
-		color:#000;
-	}
-			
-	.E2{
-		width:900px;
-		height:250px;
-	
-	}
-	   
-	 .texiao1{
-		 background-color:#00F;
-		 width:350px;
-		 height:250px;
-		 float:left;
-	 }
-	 
-	 
-	 
-	 
-	* {
-		margin: 0;
-		padding: 0;
-	}
-	
-	
-	.texiao1 {                          /*dl标记类样式*/
-		position: relative;               /*相对定位*/
-		height: 230px;                 /*高度*/
-		width:350px;                 /*宽度*/
-		background: #ccc;              /*dl标记的背景颜色*/
-		text-align: center;
-		padding-top: 20px;
-	}
-	
-	.texiao1 dt {                         /*dt样式类*/
-		position: absolute;             /*绝对定位*/
-		right: 5px;                   /*右边框离父级元素的距离*/
-		bottom: 5px;                 /*下边框离父级元素的距离*/
-	}
-	
-	
-	.texiao1 dt a {                      /*a样式类*/
-		float: left;                  /*左对齐*/
-		display: block;              /*定义为块级元素*/
-		padding: 1px 4px;
-		border: 1px solid #ccc;       /*为列表项加边框*/
-		margin-left: 2px;
-		text-decoration: none;        /*不显示下划线*/
-		color: #309;               /*字体颜色*/
-		font-size: 12px;
-	}
-	
-	.texiao1 dt a:hover {               /*鼠标悬停时的a样式类*/
-		background: #fff;
-		color: #FF0;
-	}
-	
-	.texiao1 dd {               /*dd类样式*/
-		width: 300px;       /*宽度*/
-		height:200px;       /*高度*/
-		overflow: hidden;
-		margin-left:20px;
-		text-decoration:none;    /*隐藏溢出*/
-	}
+	</script>
+	<!--// Meta tag Keywords -->
 
-	
-	  
-	
-	.texiao2 {
-    position:absolute;
-    width:502px;
-    height:230px;
-    border:10px solid #eee;
-	margin-left:380px;
-	
-}
+	<!-- css files -->
+	<link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS -->
+	<link rel="stylesheet" href="css/font-awesome.min.css"> <!-- Font-Awesome-Icons-CSS -->
+	<!-- //css files -->
 
-.texiao2 dd {
-    margin:0;
-    width:500px;
-    height:230px;
-    overflow:hidden;
-	
-}
+	<!--web font-->
+	<link href="http://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+	<!--//web font-->
 
-.texiao2 dt {
-    position:absolute;
-    right:1px;
-}
-
-
-.texiao2 ul {
-    margin:0;
-    padding:0;
-    width:500px;
-    height:230px;
-    list-style:none;
-    border:1px solid #ccc;
-    background:#9CF;
-	
-}
-
-.texiao2 li {
-    width:405px;
-    height:40px;
-    padding-left:20px;
-    font:20px/35px "宋体", sans-serif;
-    white-space:nowrap;
-    overflow:hidden;
-	
-}
-
-
-.texiao2 dt a:hover {
-    background:orange;
-}
-
-.texiao2 dt a {
-    display:block;
-    margin:4px;
-    width:120px;
-    height:72px;
-    text-align:center;
-    font:700 20px/55px "宋体", sans-serif;
-    color:#fff;
-    text-decoration:none;
-    background:#666;
-}
-	
-	
-	.zuihao{
-		width:900px;
-		height:200px;
-		float:right;
-		
-	}
-	
-	.zuihao p{
-		text-align:center;
-		font-size:16px;
-		
-	}
-	
-	.zuihao p:hover{
-		color:#C33;
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	</style>
 </head>
 
-<body >
-<div class="contain">
- <div class="dingbu">
-	         <div class="huahuiwang"><span>花卉网<span></div>
-		     <div class="home"><p>Home | Flower Diary | Contanct</p>  
-           	    <form method="post" action="a.php">
-                <input type="text" value="" name="yonghuming"/>
-                <input type="submit" value="登陆" name="tijiao" />
-				</form>
-     		</div>
-            
-            <div class="shouye">
-                 <span><a href="" style="color:#090;">首页</a> </span><span><a href=""> /</a></span>
-                 <span><a href="">公司介绍</a></span>
-                 <span><a href="">新闻中心</a></span>
-                 <span><a href="">产品中心</a></span>
-                 <span><a href="">案例展示</a></span>
-                 <span><a href="">最新动态</a></span>
-                 <span><a href="">在线服务</a></span>
-                 <span> <a href="">留言板</a></span>
-                 <span><a href="abc.html" style="color: red;">
-                 黄岸雅</a></span> 
-            </div>
-           
-	 </div>
-	
+<body>
 
-	
-  <div class="dibu">
+<!-- //header -->
+<header>
+	<div class="container">
+		<!-- nav -->
+		<nav class="py-md-4">
+        <div id="logo">
+			<h1> <a href="index1.html"><span class="fa fa-glass" aria-hidden="true"></span> 黄岸雅<span class="block">New Year's Eve</span></a></h1>
+		</div>
 
+        <label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
+        <input type="checkbox" id="drop" />
+            <ul class="menu mt-md-3">
+                <li class="mr-lg-4 mr-3 active"><a href="#">Home</a></li>
+                <li class="mr-lg-4 mr-3">
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+                <a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                <input type="checkbox" id="drop-2"/>
+                <ul class="drop-down">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#team">Organizers</a></li>
+                    <li><a href="#sponsers">Sponsers</a></li>
+                    <li><a href="#subscribe">Subscribe</a></li>
+                </ul>
+                </li>
+                <li class="mr-lg-4 mr-3"><a href="#contact">Contact</a></li>
+                <li class="mr-3 icons"><a href="#"><span class="fa fa-facebook" aria-hidden="true"></span></a></li>
+                <li class="mr-3 icons"><a href="#"><span class="fa fa-instagram" aria-hidden="true"></span></a></li>
+                <li class="mr-3 icons"><a href="#"><span class="fa fa-twitter" aria-hidden="true"></span></a></li>
+                <li class=" icons"><a href="#"><span class="fa fa-youtube-play" aria-hidden="true"></span></a></li>
+            </ul>
+        </nav>
+		<!-- //nav -->
+	</div>
+</header>
+<!-- //header -->
 
-            <div class="A">
-                 <img src="images/2.jpg">
-            </div>
-            
-        
-        
-            <div class="B">
-                  <div class="B1">
-                            <span>公司简介</span>
-                            <span style=" margin:60px 0px 0px 260px;"></span>
-                            <hr/>
-                            <span style="font-size:20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;红梅花卉建于1996年，
-                            坐落于美丽的烟台，位于前进路路北三站批发市场宝利大厦四楼....
-                           
-                           </span>
-                    </div>
-                    <div class="B2"><img src="images/3.jpg"></div>
-                    <div class="B3">
-                        <div class="juxing">
-                               <div class="juxing1"> <span>新闻动态</span></div>
-                               <div class="juxing2"><span>花卉常识</span></div> 
-                               <span>more</span>
-                         </div>
-                         <hr>
-                         <div class="zi">
-                         
-                         <div class="zi1">
-                             <ol>
-                                  <li>仿真柳树净化空气...</li>
-                                  <li>烟台仿真花藤供应商...</li>
-                                  <li>烟台绿荫仿真绿植...</li>
-                                  <li>花藤美化环境...</li>
-                                  
-                             </ol>
-                        </div>
-                    </div>
-                       
-                       
-                 </div>
-       </div>
-            
-        
-            <div class="C">
-                <div class="C1">
-                    <span style="color:#030; font-size:20px;">产品展示</span>
-                    <span style="font-family:'华文行楷'; font-size:36px;">为生活添一点色彩</span>
-                </div>
-                <div class="C2">
-                    <div class="hua">
-                        <img src="images/5.jpg">
-                        <img src="images/6.jpg">
-                        <img src="images/7.jpg">
-                    </div>
-                    <div class="huaming">
-                        <span style="margin:-65px 60px 60px 70px; font-size:22px;">玫瑰花</span> 
-                        <span style="margin:60px 60px 60px 45px; font-size:22px;">太阳花</span>
-                        <span style="margin:60px 60px 60px 80px; font-size:22px;">康乃馨</span>
-                    </div>
-                </div>
-            </div>
-            <div class="D">
-                <div class="D1"></div>
-              <span>各种各样的花各种各样的花都有都有<span><br>
-               <span>各种各样的花都有各种各样的花都有<span><br>
-                <span>各种各样的花都有各种各样的花都有<span><br>
-                 <span>各种各样的花都有各种各样的花都有<span><br>
-                  <span>各种各样的花都有各种各样的花都有<span><br>
-                  <span>各种各样的花都有各种各样的花都有<span><br>
-             </div>
-       
-        <div class="E">
-              <div class="E1">
-                 <form>
-                    <label for="color"> 请选择你喜欢的一种花：</label>
-                    <select name="" id="clolr">
-                        <option class="r">玫瑰花</option>
-                        <option class="o">康乃馨</option>
-                        <option class="y">丁香花</option>
-                        <option class="g">百合花</option>
-                        <option class="q">山茶花</option>
-                        <option class="b">星辰花</option>
-                        <option class="z">牡丹花</option>
-                    </select>
-                </form>
-                      
-            </div>
-              <div class="E2">
-                   <div class="texiao1">
-                          <dt> 
-                            <a href="#img1">1</a> 
-                            <a href="#img2">2</a> 
-                            <a href="#img3">3</a> 
-                            <a href="#img4">4</a> 
-                        </dt>
-                    
-                        <dd> 
-                            <img src="images/9.jpg" id="img1"/> 
-                            <img src="images/10.jpg" id="img2"/> 
-                            <img src="images/11.jpg" id="img3"/> 
-                            <img src="images/12.jpg" id="img4"/> 
-                        </dd>
+<!-- banner -->
+<section class="banner" id="home">
+	<div class="banner-layer">
+		<div class="container">
+			<div class="w3pvt_banner_info text-center">
+				<div class="w3layouts_banner_margin">
+					<h3 class="editContent">2020 </h3>
+					<h2 class="editContent">Happy New Year</h2>
+					<h4>Get ready to celebrate</h4>
+					<a href="aa/index1.html">黄岸雅</a>
+				</div>
+			</div>
+			<!-- To bottom button-->
+			<div class="thim-click-to-bottom mt-5 pt-md-5">
+				<div class="rotate">
+					<a href="#about" class="scroll">
+						<span class="fa fa-angle-double-down"></span>
+					</a>
+				</div>
+			</div>
+			<!-- //To bottom button-->
+		</div>
+	</div>
+</section>
+<!-- //banner -->
 
-                  </div>
-                <div class="texiao2">
-                   <dt> <a href="#a">养花知识</a>
-                         <a href="#b">养花顾问</a>
-                         <a href="#c">注意事项</a>
-                  </dt>
-
-                <dd>
-                    <ul id="a">
-                        <li><a href="#">变质奶浇花 牛奶变质后，加水用来浇花</a></li>
-                        <li><a href="#">尿素追肥，也可用尿素水喷施叶面</a></li>
-                        <li><a href="#">不要长期固定浇水时间、浇水量</a></li>
-                        <li><a href="#">把水在花盆旁放半天再浇</a></li>
-                        <li><a href="#">可以经常在花草周围喷雾</a></li>
-                        <li><a href="#">花期前后用磷钾肥</a></li>
-                       
-                    </ul>
-                    <ul id="b">
-                        <li><a href="#">浇水适时：当盆土颜色变浅、即需浇水了</a></li>
-                        <li><a href="#">根据季节：夏初开始发芽滋长，结合施肥</a></li>
-                        <li><a href="#">区别对待：给盆花浇水，不能平均对待</a></li>
-                        <li><a href="#">浇水时间：一般以上午九、十点钟为宜</a></li>
-                        <li><a href="#">浇水适量：植物缺水，就会生长不良</a></li>
-                        <li><a href="#">水的温度：使水温与盆土温度相近</a></li>
-                        
-                    </ul>
-                    <ul id="c">
-                        <li><a href="#">春季花卉生长旺盛,蒸发量大，及时浇水</a></li>
-                        <li><a href="#">夏季气温炎热雨水偏多，注意防暑避阴</a></li>
-                        <li><a href="#">经过冬季后的枯枝败叶要及时修剪 </a></li>
-                        <li><a href="#">冬季开花的花卉要注意施肥和浇水</a></li>
-                        <li><a href="#">花卉要注意防寒,提早入室越冬</a></li>
-                        <li><a href="#">夏秋开花的花卉种子要及时采收</a></li>
-                    </ul>
-                </dd>
-                 
-           </div>  
-        
-        </div>
-    
-    </div> 
-    
-     <div class="zuihao">
-     <br>
-      <p>公司主营：家居饰品-仿真蓝植-仿真花藤-仿真椰树-仿真树</p>
-      <p>地址：花都区建设北路83号（海关前行50米）</p>
-      <p>电话/传真：02089564270</p>
-      <p>手机：15168426658</p>
-      <p>技术：优客科技</p>
-      <br>
-      <p>友情链接：烟台三站红梅花卉婚庆部&nbsp;&nbsp;&nbsp;石家庄婚纱摄影&nbsp;&nbsp;&nbsp;沈阳礼品公司&nbsp;&nbsp;&nbsp;
-       吉州花卉苗术&nbsp;&nbsp;&nbsp;工艺品加工&nbsp;&nbsp;&nbsp;武汉工艺品&nbsp;&nbsp;&nbsp;户外休闲
-       
-      </p>
-      
-      </div>
-	
-    </div>
-            
+<!-- fireworks animation -->
+<div class="pyro">
+    <div class="before"></div>
+    <div class="after"></div>
 </div>
+<!-- //fireworks animation -->
+<!-- about -->
+<section class="about py-5" id="about">
+	<div class="container py-md-5">
+		<div class="row about-grids">
+			<div class="col-lg-6">
+				<h3 class="heading mb-4">新年祝福语</h3>
+				<p>捧一卷书册，看人生起落；闻一股花香，感受生活美妙；泡一壶清茶，尝一刻休闲；发一条短信，送一句祝福。衷心祝您和您的家人和和美美，新年快乐。世人都晓春节好，一年到头相聚闹；最是童年忘不掉，新衣新裤新鞋帽；亲朋好友拜年早，红包礼品不会少；祝福送到就是好，幸福安康新年好。</p>
+				<p class="mt-2">情谊深浓不在联系频繁，而在心底的惦念；祝福不在字数多少，而在感情的真挚。又是一年，我的祝福虽然很短，却包含了浓浓的思念，祝你新年快乐，一切如愿。情谊深浓不在联系频繁，而在心底的惦念；祝福不在字数多少，而在感情的真挚。又是一年，我的祝福虽然很短，却包含了浓浓的思念，祝你新年快乐，一切如愿。</p>
+
+			</div>
+			<div class="col-lg-5 col-md-8 mt-lg-0 mt-4 offset-lg-1 text-center about-middle">
+				<h5>New Years Eve</h5>
+				<h4 class="heading mb-3">团团圆圆</h4>
+				<p class="">阳光，送给你温暖；星星，许给你温馨；情意，带给你幸福；短信，传给你祝福；</p>
+				<a href="#contact">Happy</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- about -->
+
+<!-- fireworks animation -->
+<div class="pyro">
+    <div class="before"></div>
+    <div class="after"></div>
+</div>
+<!-- //fireworks animation -->
+
+<!-- events -->
+<section class="events py-5 " id="events">
+	<div class="container py-md-5">
+		<div class="row event-grids">
+			<div class="col-lg-5">
+				<h3 class="heading mb-4">Upcoming Events</h3>
+				<ul class="event-names mt-5">
+					<li class="d-flex"><h3 class="mr-3">07 Jan</h3> Event 1 Party Night </li>
+					<li class="para">Integer pulvinar leo id viverra feuetgiat. Dolor libero ut justo, semper at tempus vel, ultrices in ligula.</li>
+					<li class="d-flex"><h3 class="mr-3">09 Jan</h3> Event 2 New Year </li>
+					<li class="para">Integer pulvinar leo id viverra feuetgiat. Dolor libero ut justo, semper at tempus vel, ultrices in ligula.</li>
+					<li class="d-flex"><h3 class="mr-3">04 Jan</h3> Event 3 Dj Show </li>
+					<li class="para">Integer pulvinar leo id viverra feuetgiat. Dolor libero ut justo, semper at tempus vel, ultrices in ligula.</li>
+				</ul>
+			</div>
+			<div class="col-lg-6 offset-lg-1 mt-lg-0 mt-4">
+
+				<img src="images/party.jpg" alt="" class="img-fluid" />
+				<h4>Please join us for a jolly night of food, drinks, dance and music.</h4>
+				<a href="#contact">Join with Us</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //events -->
+
+<!-- fireworks animation -->
+<div class="pyro">
+    <div class="before"></div>
+    <div class="after"></div>
+</div>
+<!-- //fireworks animation -->
+
+
+
+
+<!-- fireworks animation -->
+<div class="pyro">
+    <div class="before"></div>
+    <div class="after"></div>
+</div>
+<!-- //fireworks animation -->
+<div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+<!-- team  -->
+<section class="pb-5 py-4 team-agile position-relative" id="team">
+	<div class="container py-lg-5">
+		<h3 class="heading">Party Organizers</h3>
+		<div class="d-flex team-agile-row pt-sm-5 pt-3">
+			<div class="col-lg-3 col-sm-6 w3pvt-team">
+				<div class="box20">
+					<img src="images/t2.jpg" alt="" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">willimson</h3>
+						<span class="post">Organizer</span>
+					</div>
+					<ul class="icon">
+						<li>
+							<a href="#">
+								<span class="fa fa-plus"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-link"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 mt-sm-0 mt-4 w3pvt-team">
+				<div class="box20">
+					<img src="images/t3.jpg" alt="" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">Kristiana</h3>
+						<span class="post">Organizer</span>
+					</div>
+					<ul class="icon">
+						<li>
+							<a href="#">
+								<span class="fa fa-plus"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-link"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 mt-lg-0 mt-4 w3pvt-team">
+				<div class="box20">
+					<img src="images/t1.jpg" alt="" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">franklin</h3>
+						<span class="post">Organizer</span>
+					</div>
+					<ul class="icon">
+						<li>
+							<a href="#">
+								<span class="fa fa-plus"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-link"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 mt-lg-0 mt-4 w3pvt-team">
+				<div class="box20">
+					<img src="images/t4.jpg" alt="" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">franklin</h3>
+						<span class="post">Organizer</span>
+					</div>
+					<ul class="icon">
+						<li>
+							<a href="#">
+								<span class="fa fa-plus"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-link"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="position-right-img">
+		<img src="images/balloon.png" class="img-fluid" alt="" />
+	</div>
+</section>
+<!-- //team -->
+
+
+
+
+
+<!-- subscribe -->
+<section class="subscribe text-center py-sm-5 pt-5 pb-4" id="subscribe">
+	<div class="container pt-md-3">
+		<h4>Subscribe</h4>
+		<h3 class="heading mb-4">Stay In The Loop</h3>
+		<div class="footer-text">
+			<p class="mb-2">Sign up to get our newsletter for all the latest news, shows, and events</p>
+			<form action="#" method="post" class="d-flex">
+				<input type="email" name="Email" class=" mr-md-2 mr-1" placeholder="Email Address" required="">
+				<button class="btn">Subscribe</button>
+			</form>
+		</div>
+
+		<!-- to top -->
+		<a href="#home" class="move-top text-center"><span class="fa fa-angle-double-up mt-3" aria-hidden="true"></span></a>
+		<!-- //to top -->
+	</div>
+</section>
+<!-- //subscribe -->
+
 </body>
 </html>
